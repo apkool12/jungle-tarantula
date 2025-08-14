@@ -4,6 +4,7 @@ import IntroSection from "../components/IntroSection";
 
 import People1 from "../assets/svg/people1.svg";
 import People2 from "../assets/svg/people2.svg";
+import People3 from "../assets/svg/people3.svg";
 
 const members = [
   {
@@ -25,13 +26,15 @@ const members = [
     smallName: "OH JUYEONG",
     bigTitle: "오주영",
     paragraphs: [
-      "사용자 문제를 관찰하고 데이터로 검증하는 것을 좋아합니다.",
-      "이번 프로젝트에서는 디자인 시스템과 인터랙션을 책임집니다.",
+      "안녕하세요. 경기대학교 컴퓨터공학부 4학년 오주영입니다.",
+      "Java와 Spring을 활용한 백엔드 개발에 집중하고 있으며, 함께 협업하면서 점점 더 호흡이 맞아가는 게 느껴져 기쁩니다.",
+      "앞으로도 서로에게 힘이 되는 동료로, 즐겁게 프로젝트를 완성해 나가고 싶습니다.",
+      "끝까지 멋지고 의미 있게 함께해요!",
     ],
     silhouetteSrc: People2,
     accent: "#8BD1FF",
     gitHubUsername: "wndudzz6",
-    stack: ["Node.js", "Express", "MongoDB", "AWS"],
+    stack: ["Java", "Spring Boot", "JPA", "Kotlin"],
   },
   {
     roleLabel: "BACK-END DEVELOPER",
@@ -43,10 +46,10 @@ const members = [
       "앞으로도 함께 고민하고 도전하며, 서로의 부족함을 채워 주는 든든한 동료가 되고 싶습니다.",
       "끝까지 즐겁게, 그리고 멋지게 완성해 나가요.",
     ],
-    silhouetteSrc: People1,
+    silhouetteSrc: People3,
     accent: "#F0B76E",
     gitHubUsername: "chupyum",
-    stack: ["Java", "Spring Boot", "JPA", "Kotlin"],
+    stack: ["Python", "Flask"],
   },
 ];
 
