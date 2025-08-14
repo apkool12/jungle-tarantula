@@ -34,6 +34,22 @@ const languageColors: Record<string, string> = {
   CMake: "#55b771",
   JavaScript: "#4ad66d",
   Swift: "#77c2d7",
+  TypeScript: "#4fb6a3",
+  Python: "#7ad0b0",
+  Go: "#5fc2a0",
+  Kotlin: "#70d1c2",
+  PHP: "#5ec8cc",
+  Ruby: "#8dd6b9",
+  Rust: "#59c4b0",
+  Shell: "#5eb9a8",
+  SCSS: "#6dc7bc",
+  Vue: "#61d2a0",
+  Svelte: "#9cd4c3",
+  Markdown: "#82cfae",
+  JSON: "#74d1c8",
+  YAML: "#8fd6a4",
+  SQL: "#64cdb2",
+  Other: "#b0d8cb",
 };
 
 const IntroSection: React.FC<IntroSectionProps> = ({

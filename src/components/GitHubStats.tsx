@@ -11,13 +11,29 @@ type Props = {
 
 const DEFAULT_COLORS: Record<string, string> = {
   Java: "#7FE175",
-  Dart: "#4E5E4C",
-  CSS: "#4C5E5D",
-  HTML: "#B7DECE",
-  "C++": "#6DC1DE", // ✅ 두 개의 # 버그 수정
-  CMake: "#4C5E51",
-  JavaScript: "#6DDE8A",
-  Swift: "#4C5A5E",
+  Dart: "#afd7aa",
+  CSS: "#66c2bd",
+  HTML: "#6bcba3",
+  "C++": "#58c1e4",
+  CMake: "#55b771",
+  JavaScript: "#4ad66d",
+  Swift: "#77c2d7",
+  TypeScript: "#4fb6a3",
+  Python: "#7ad0b0",
+  Go: "#5fc2a0",
+  Kotlin: "#70d1c2",
+  PHP: "#5ec8cc",
+  Ruby: "#8dd6b9",
+  Rust: "#59c4b0",
+  Shell: "#5eb9a8",
+  SCSS: "#6dc7bc",
+  Vue: "#61d2a0",
+  Svelte: "#9cd4c3",
+  Markdown: "#82cfae",
+  JSON: "#74d1c8",
+  YAML: "#8fd6a4",
+  SQL: "#64cdb2",
+  Other: "#b0d8cb",
 };
 
 const GitHubStats: React.FC<Props> = ({ repoCount, languages, stack }) => {
