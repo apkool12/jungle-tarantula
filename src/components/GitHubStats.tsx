@@ -41,7 +41,12 @@ const GitHubStats: React.FC<Props> = ({ repoCount, languages, stack }) => {
   return (
     <Wrap>
       <Left>
-        <svg width="600" height="600" viewBox="0 0 300 300">
+        <svg
+          width="600"
+          height="600"
+          viewBox="0 0 300 300"
+          style={{ marginBottom: 180 }}
+        >
           {languages.map((l, i) => {
             const deg = (l.pct / 100) * 360;
             const d = segPath(acc, deg);
@@ -166,7 +171,7 @@ const StackDesc = styled.p`
 const RepoBadge = styled.div`
   position: absolute;
   left: 0;
-  bottom: -10%;
+  bottom: 50px;
   width: 300px;
   background: #fff;
   color: #737373;
@@ -185,7 +190,7 @@ const RepoBadge = styled.div`
 const Legend = styled.div`
   display: flex;
   flex-wrap: wrap;
-  margin-top: -100px;
+  margin-top: -40%;
   margin-left: 130px;
   gap: 12px 20px;
 
